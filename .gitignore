@@ -4,5 +4,5 @@
 target
 test
 *.log
-*.txt
 .bin/external/pkg
+notas.txt
