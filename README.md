@@ -42,6 +42,7 @@ ___
 
 All the places where *Certbuster2* should look for certificates must be included in the file *scanfile.txt*. Currently, Certbuster2 admits the following types of entries:
 
+
 Type of entry  | Description |  Example
 ------------- | ---------------------
 File  | just a file  | /myPath/myCert.cert
