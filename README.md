@@ -44,7 +44,7 @@ All the places where *Certbuster2* should look for certificates must be included
 
 
 Type of entry  | Description |  Example
-------------- | -------------|--------
+-------------- | -------------|--------
 File  | just a file  | /myPath/myCert.cert
 Folder | Scan all files/folders recursively | /myPath
 domain or ip | domain or ip | www.google.com or 192.168.4.56
@@ -123,7 +123,7 @@ certbuster2.mail.from | Sender address | certbuster2@no-reply.com
 Choose one or another can
 
 Connection Service | Ranking fastest connection service (if certificate is available) | Maximum time to get the certificate | Require external components | Support proxy | TLS implementation
--------------------|----------|-----|--------|------
+-------------------|------------------------------------------------------------------|-------------------------------------|-----------------------------|---------------|-------------------
 NATIVE | 3| Defined in timeout property | No | Yes | Java Secure Socket Extension (JSSE)
 COMMONS | 6| Defined in timeout property | No | Yes  | Java Secure Socket Extension (JSSE)
 BC | 5| Defined in timeout property | No | Probably not  | Java Secure Socket Extension (JSSE)
