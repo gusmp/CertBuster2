@@ -6,3 +6,8 @@ test
 *.log
 .bin/external/pkg
 notas.txt
+*.xlsx
+/scanfile_02.txt
+/scanfile_01.txt
+application.pro*
+/application.properties

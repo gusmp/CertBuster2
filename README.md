@@ -120,10 +120,10 @@ certbuster2.mail.from | Sender address | certbuster2@no-reply.com
 * OpenSSL (OPENSSL)
 * LibreSSL (LIBRESSL)
 
-Chooso one or another can
+Choose one or another can
 
-Connection Service | Ranking fastest connection service (if certificate is avaiable) | Maximum time to get the certificate | Require external components | Support proxy | TLS implementation
--------------------|-----------------------------
+Connection Service | Ranking fastest connection service (if certificate is available) | Maximum time to get the certificate | Require external components | Support proxy | TLS implementation
+-------------------|----------|-----|--------|------
 NATIVE | 3| Defined in timeout property | No | Yes | Java Secure Socket Extension (JSSE)
 COMMONS | 6| Defined in timeout property | No | Yes  | Java Secure Socket Extension (JSSE)
 BC | 5| Defined in timeout property | No | Probably not  | Java Secure Socket Extension (JSSE)
